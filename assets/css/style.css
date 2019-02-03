@@ -1,0 +1,37 @@
+@font-face {
+    font-family: BMidnight;
+    src: url('../font/Blackout/Blackout\ Midnight.ttf');
+}
+@font-face {
+    font-family: BSunrise;
+    src: url('../font/Blackout/Blackout\ Sunrise.ttf');
+}
+@font-face {
+    font-family: B2am;
+    src: url('../font/Blackout/Blackout\ Two\ AM.ttf');
+}
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none!important;
+    color:#c20e1a!important;
+}
+p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: ComicSansMS;
+    font-size: 18px;
+    position: relative;
+}
+.posrel{
+    position: relative;
+}
+.posabs{
+    position: absolute;
+}
