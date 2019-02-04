@@ -121,3 +121,90 @@ body{
     font-size:7vh;
     height: inherit;
 }
+.sec-3{
+    background: #0e100f;
+    padding:5% 0;
+}
+.title-sec-3{
+    font-family: Arial;
+    font-weight: bold;
+    font-size:8vh;
+}
+.chatbubble-ask {
+	position: relative;
+	background: #dac836;
+    border-radius: 2em;
+    padding: 5%;
+    font-size:1.25em;
+}
+
+.chatbubble-ask:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-top-color: #dac836;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -9.5px;
+	margin-bottom: -19px;
+}
+.chattext-ask{
+
+}
+.chatbubble-question {
+	position: relative;
+	background: #e4e4e4;
+    border-radius: 2em;
+    padding:5%;
+}
+
+.chatbubble-question:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 90%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-top-color: #e4e4e4;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -9.5px;
+	margin-bottom: -19px;
+}
+.sec-4{
+    padding:5% 0;
+    background: #dac836;
+}
+.title-sec-4{
+    font-family: B2am;
+    font-size:9vh;
+}
+.carousel{
+    height:500px!important;
+}
+.carousel-item{
+    width:500px!important;
+    height:100%!important;
+}
+.sec-5{
+    padding:5% 0;
+    background:#0e100f;
+}
+.title-sec-5{
+    font-family: Arial;
+    font-weight: bold;
+    font-size:8vh;
+}
+.sec-6{
+    padding:5% 0;
+    background: #dac836;
+}
+.title-sec-6{
+    font-family: B2am;
+    font-size:9vh;
+}
