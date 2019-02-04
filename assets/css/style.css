@@ -129,6 +129,8 @@ body{
     font-family: Arial;
     font-weight: bold;
     font-size:8vh;
+    line-height: 8.25vh;
+    margin-bottom:10px;
 }
 .chatbubble-ask {
 	position: relative;
@@ -207,4 +209,36 @@ body{
 .title-sec-6{
     font-family: B2am;
     font-size:9vh;
+}
+.sec-7{
+    background: #0e100f;
+    padding:5% 0;
+}
+.title-sec-7{
+    font-family: Arial;
+    font-weight: bold;
+    font-size:8vh;
+    line-height: 8.25vh;
+    margin-bottom:10px;
+}
+.carousel-title{
+    font-weight: bold;
+    font-size:16px;
+}
+.carousel-text{
+    background:#232323;
+    color:#FFF;
+    font-size:12px;
+    width: 100%;
+    padding:20px;
+    height:250px;
+}
+.footer{
+    padding:3% 0;
+    background: #dac836;
+    font-size:20px;
+}
+.lbl-foot{
+    font-weight: bold;
+    font-size:24px
 }
