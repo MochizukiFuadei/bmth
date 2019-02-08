@@ -277,8 +277,8 @@ body{
     .title-sec-3{
         font-family: BMidnight;
         font-weight: bold;
-        font-size:4.25vh;
-        line-height: 4.5vh;
+        font-size:4vh;
+        line-height: 4.2vh;
         margin-bottom:10px;
         background:url('../images/3/3_header.png') no-repeat bottom;
         background-size:100%;
@@ -324,10 +324,10 @@ body{
     .title-sec-5{
         font-family: BMidnight;
         font-weight: bold;
-        font-size:4.5vh;
+        font-size:4vh;
         background:url('../images/5/5_header.png') no-repeat bottom;
         background-size:100%;
-        padding:30% 0 10% 0;
+        padding:10% 0 10% 0;
         display:block;
     }
     .carousel{
@@ -340,10 +340,10 @@ body{
     .title-sec-7{
         font-family: BMidnight;
         font-weight: bold;
-        font-size:4.5vh;
+        font-size:4vh;
         background:url('../images/7/7_header.png') no-repeat bottom;
         background-size:100%;
-        padding:30% 0 10% 0;
+        padding:20% 0 10% 0;
         display:block;
     }
     .caros-sec-7 .carousel{
@@ -395,7 +395,7 @@ body{
 }
 .sec-3{
     background: #0e100f;
-    padding-bottom:10%;
+    padding-bottom:15%;
 }
 
 .chatbubble-question {
