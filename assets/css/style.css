@@ -440,5 +440,6 @@ body{
 }
 .lbl-foot{
     font-weight: bold;
-    font-size:24px
+    font-size:24px;
+    font-family: jma!important;
 }
