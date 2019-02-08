@@ -10,6 +10,13 @@
     font-family: B2am;
     src: url('../font/Blackout/Blackout\ Two\ AM.ttf');
 }
+@font-face {
+    font-family: jma;
+    src: url('../font/jmacscrl.ttf');
+}
+.F2AM{
+    font-family: B2am!important;
+}
 *{
     margin:0;
     padding:0;
@@ -96,17 +103,21 @@ body{
     .intros{
         font-size: 1.3em;
         line-height: 1.3em;
+        font-family: jma!important;
     }
     .imgyear-sec-2{
-        margin-left:-5%;
         width:80%;
     }
     .title-sec-3{
-        font-family: Arial;
+        font-family: BMidnight;
         font-weight: bold;
         font-size:8vh;
         line-height: 8.25vh;
         margin-bottom:10px;
+        background:url('../images/3/3_header.png') no-repeat bottom;
+        background-size:100%;
+        padding:30% 0 10% 0;
+        display:block;
     }
     .chatbubble-ask {
         position: relative;
@@ -114,6 +125,7 @@ body{
         border-radius: 2em;
         padding: 5%;
         font-size:1.25em;
+        font-family: jma!important;
     }
     .chatbubble-ask:after {
         content: '';
@@ -144,9 +156,13 @@ body{
         margin-bottom: -19px;
     }
     .title-sec-5{
-        font-family: Arial;
+        font-family: BMidnight;
         font-weight: bold;
         font-size:8vh;
+        background:url('../images/5/5_header.png') no-repeat bottom;
+        background-size:100%;
+        padding:30% 0 10% 0;
+        display:block;
     }
     .carousel{
         height:500px!important;
@@ -162,6 +178,23 @@ body{
         width: 100%;
         padding:20px;
         height:250px;
+    }
+    .mobile-year-sec-2{
+        font-family: BSunrise;
+        font-size:9vh;
+        margin-top:20px;
+    }
+    .title-sec-7{
+        font-family: BMidnight;
+        font-weight: bold;
+        font-size:8vh;
+        background:url('../images/7/7_header.png') no-repeat bottom;
+        background-size:100%;
+        padding:30% 0 10% 0;
+        display:block;
+    }
+    .hgt{
+        height: 380px;
     }
 }
 
@@ -231,6 +264,7 @@ body{
     .intros{
         font-size: 3vh;
         line-height: 3.25vh;
+        font-family: jma!important;
     }
     .imgyear-sec-2{
         width:100%;
@@ -241,11 +275,15 @@ body{
         margin-top:20px;
     }
     .title-sec-3{
-        font-family: Arial;
+        font-family: BMidnight;
         font-weight: bold;
         font-size:4.25vh;
         line-height: 4.5vh;
         margin-bottom:10px;
+        background:url('../images/3/3_header.png') no-repeat bottom;
+        background-size:100%;
+        padding:10% 0 5% 0;
+        display:block;
     }
     .chatbubble-ask {
         position: relative;
@@ -253,6 +291,7 @@ body{
         border-radius: 2em;
         padding: 5%;
         font-size:1.1em;
+        font-family: jma!important;
     }
     .chatbubble-ask:after {
         content: '';
@@ -283,9 +322,13 @@ body{
         margin-bottom: -19px;
     }
     .title-sec-5{
-        font-family: Arial;
+        font-family: BMidnight;
         font-weight: bold;
         font-size:4.5vh;
+        background:url('../images/5/5_header.png') no-repeat bottom;
+        background-size:100%;
+        padding:30% 0 10% 0;
+        display:block;
     }
     .carousel{
         height:300px!important;
@@ -293,6 +336,15 @@ body{
     .carousel-item{
         width:300px!important;
         height:100%!important;
+    }
+    .title-sec-7{
+        font-family: BMidnight;
+        font-weight: bold;
+        font-size:4.5vh;
+        background:url('../images/7/7_header.png') no-repeat bottom;
+        background-size:100%;
+        padding:30% 0 10% 0;
+        display:block;
     }
     .caros-sec-7 .carousel{
         height:500px!important;
@@ -309,6 +361,14 @@ body{
         padding:20px;
         height:350px;
     }
+    .hgt{
+        height:100px;
+    }
+}
+.profpict-chat{
+    width:75px;
+    bottom:-75px;
+    right:0;
 }
 .sec-1{
     background:#0e100f;
@@ -335,7 +395,7 @@ body{
 }
 .sec-3{
     background: #0e100f;
-    padding:5% 0;
+    padding-bottom:10%;
 }
 
 .chatbubble-question {
@@ -354,7 +414,7 @@ body{
     font-size:9vh;
 }
 .sec-5{
-    padding:5% 0;
+    padding-bottom:5%;
     background:#0e100f;
 }
 .sec-6{
@@ -367,14 +427,7 @@ body{
 }
 .sec-7{
     background: #0e100f;
-    padding:5% 0;
-}
-.title-sec-7{
-    font-family: Arial;
-    font-weight: bold;
-    font-size:8vh;
-    line-height: 8.25vh;
-    margin-bottom:10px;
+    padding-bottom:5%;
 }
 .carousel-title{
     font-weight: bold;
